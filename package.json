@@ -1,0 +1,28 @@
+{
+  "name": "API testing framework for Erx McKesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Tetiana Paranich",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.16.6",
+    "globals": "^17.12.0",
+    "jest": "^30.5.1",
+    "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "oracledb": "^7.0.1"
+  }
+}
