@@ -1,0 +1,156 @@
+{
+   "Metadata": {
+    "CorrelationId": "",
+    "SourceId": "VAPI",
+    "MessageType": "NewRx",
+    "OriginCode": "Electronic"
+  },
+  "Pharmacy": {
+    "NcpdpNumber": "5432109",
+    "NPI": "0202207458"
+  },
+  "Patient": {
+    "Addresses": [
+      {
+        "Type": "Home",
+        "Line1": "ENTERPRISE 1",
+        "Line2": "",
+        "City": "CHICAGO",
+        "State": "IL",
+        "ZipCode": "60606"
+      }
+    ],
+    "Phones": [
+      {
+        "Type": "Home",
+        "Number": "6661112233"
+      }
+    ],
+    "AdditionalInformation": [],
+    "FirstName": "JIM",
+    "LastName": "KIRK",
+    "DateOfBirth": "01/01/2000",
+    "Gender": "M",
+    "SocialSecurityNumber": "",
+    "EmailAddress": "",
+    "Race": [],
+    "Ethnicity": "",
+    "ExistingPatient": true
+  },
+  "Physician": {
+    "FacilityName": "VACCINATION",
+    "Sln": "",
+    "SlnState": "IL",
+    "SlnExpirationDate": "",
+    "Dea": "",
+    "Npi": "1234567893",
+    "Specialty": "",
+    "Addresses": [
+      {
+        "Type": "Office",
+        "Line1": "ENTERPRISE 2",
+        "Line2": "",
+        "City": "CHICAGO",
+        "State": "IL",
+        "ZipCode": "60606"
+      }
+    ],
+    "Phones": [
+      {
+        "Type": "Work",
+        "Number": "3331112233",
+        "Extension": ""
+      }
+    ],
+    "Faxes": [
+      {
+        "Type": "Work",
+        "Number": "3331112233",
+        "Extension": null
+      }
+    ],
+    "ContactFirstName": "",
+    "ContactLastName": "",
+    "ContactPhone": null,
+    "ContactFax": null,
+    "FirstName": "LEONARD",
+    "LastName": "MCCOY",
+    "MiddleInitial": null,
+    "DateOfBirth": "",
+    "Gender": null,
+    "EmailAddress": null,
+    "Prefix": null,
+    "Suffix": null
+  },
+  "RxInformation": [
+    {
+      "RxType": "NewRx",
+      "Ndc": "58160088452",
+      "ProductName": "FLUARIX TRIVALENT",
+      "QuantityWritten": "1",
+      "DaysSupply": 30,
+      "RefillsWritten": "2",
+      "RxWrittenDate": "05/23/2023",
+      "NeedDate": "08/23/2023",
+      "QuantityDispensed": "",
+      "Directions": "INJ 0.5ML IM X1 DOSE",
+      "PromiseTime": "08/20/2021 09:45 AM -0700",
+      "AdditionalInformation": [
+        {
+          "Key": "test1",
+          "Value": "value1"
+        },
+        {
+          "Key": "test2",
+          "Value": "value2"
+        }
+      ],
+      "VaccinationData": {
+        "Administration": {
+          "PreviouslyAdministered": true,
+          "VaccinationRefusal": true,
+          "ConsentToReport": true,
+          "MissedAppointment": true,
+          "AdministrationDate": "",
+          "AdministeringSite": "ZZ99",
+          "RouteOfAdministration": "INVALID_ROUTE"
+        },
+        "VaccineProduct": {
+          "DoseNumber": "99ZZ",
+          "VaccinationSeriesComplete": "MAYBE",
+          "LotNumber": "THISLOTNUMBERISINVALIDXXXXX",
+          "ExpirationDate": ""
+        },
+        "PublicHealthReporting": {
+          "VTrckSProviderPin": "###INVALID###",
+          "ComorbidityStatus": "NO",
+          "SerologyResults": "XX",
+          "FundingSource": "FUND-INVALID",
+          "VfcStatus": "V99",
+          "TargetPopulation": "TPV-INVALID"
+        },
+        "AdministeringProvider": {
+          "FirstName": "THISADMINPROVFIRSTNAMEISINVALID",
+          "LastName": "THISADMINISTERINGPROVIDERLASTNAMEISINVALIDXXXXXXXXX",
+          "Id": "ADMPROVIDINVALID",
+          "Suffix": "PROF-INVALID"
+        },
+        "AdministeringLocation": {
+          "LocationType": "99Z",
+          "LocationId": "LOCATIONIDINVALID",
+          "LocationName": "THISLOCATIONNAMEVALUEIS256CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "LocationAddress": {
+            "Type": "Unknown",
+            "Line1": "THISLINE1VALUEIS100CHARACTERSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "Line2": "THISLINE2VALUEIS51CHARACTERSXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "City": "THISCITYVALUEIS41CHARACTERSXXXXXXXXXXXXXX",
+            "State": "OHI",
+            "ZipCode": "ABCDE",
+            "County": "ABC12"
+          },
+          "LocationPhone": "123"
+        }
+      }
+    }
+  ]
+}

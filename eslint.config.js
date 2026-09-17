@@ -16,7 +16,7 @@ module.exports = [
     },
   },
   {
-    files: ['tests/specs/**/*.test.js'],
+    files: ['tests/specs/**/*.test.js', 'utils/dbCompare.js'],
     plugins: { jest },
     languageOptions: {
       globals: {

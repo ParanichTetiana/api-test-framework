@@ -1,0 +1,44 @@
+// Shared constants for DB polling retries and Jest test timeouts across spec files.
+const DB_QUERY_MAX_ATTEMPTS = 3;
+const DB_QUERY_RETRY_DELAY_MS = 2000;
+const TEST_TIMEOUT_MS = 30000;
+
+// VACCINATION_DETAIL columns that persist blank when the sent coded value is invalid/unmappable.
+const INVALID_CODED_COLUMNS = [
+  'ADMINISTERING_SITE',
+  'ROUTE_OF_ADMINISTRATION',
+  'DOSE_NUMBER',
+  'SERIES_COMPLETE',
+  'COMORBIDITY_STATUS',
+  'SEROLOGY_RESULTS',
+  'FUNDING_SOURCE',
+  'VFC_STATUS',
+  'TARGET_POPULATION',
+  'GUARDIAN_RELATION',
+  'ADMINISTERING_PROVIDER_SUFFIX',
+  'LOCATION_TYPE',
+];
+
+// VACCINATION_DETAIL columns that persist blank when the sent value violates a format/length constraint.
+const FORMAT_LENGTH_INVALID_COLUMNS = [
+  'LOT_NUMBER',
+  'VTRCKS_PROVIDER_PIN',
+  'GUARDIAN_F_NAME',
+  'GUARDIAN_L_NAME',
+  'PROVIDER_F_NAME',
+  'PROVIDER_L_NAME',
+  'PROVIDER_ID',
+  'LOCATION_ID',
+  'LOCATION_CITY',
+  'LOCATION_STATE',
+  'LOCATION_ZIPCODE',
+  'LOCATION_COUNTY_CODE',
+];
+
+module.exports = {
+  DB_QUERY_MAX_ATTEMPTS,
+  DB_QUERY_RETRY_DELAY_MS,
+  TEST_TIMEOUT_MS,
+  INVALID_CODED_COLUMNS,
+  FORMAT_LENGTH_INVALID_COLUMNS,
+};

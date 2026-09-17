@@ -1,0 +1,155 @@
+{
+   "Metadata": {
+    "CorrelationId": "",
+    "SourceId": "VAPI",
+    "MessageType": "NewRx",
+    "OriginCode": "Electronic"
+  },
+  "Pharmacy": {
+    "NcpdpNumber": "5432109",
+    "NPI": "0202207458"
+  },
+  "Patient": {
+    "Addresses": [
+      {
+        "Type": "Home",
+        "Line1": "ENTERPRISE 1",
+        "Line2": "",
+        "City": "CHICAGO",
+        "State": "IL",
+        "ZipCode": "60606"
+      }
+    ],
+    "Phones": [
+      {
+        "Type": "Home",
+        "Number": "6661112233"
+      }
+    ],
+    "AdditionalInformation": [],
+    "FirstName": "JIM",
+    "LastName": "KIRK",
+    "DateOfBirth": "01/01/2000",
+    "Gender": "M",
+    "SocialSecurityNumber": "",
+    "EmailAddress": "",
+    "Race": [],
+    "Ethnicity": "",
+    "ExistingPatient": true
+  },
+  "Physician": {
+    "FacilityName": "VACCINATION",
+    "Sln": "",
+    "SlnState": "IL",
+    "SlnExpirationDate": "",
+    "Dea": "",
+    "Npi": "1234567893",
+    "Specialty": "",
+    "Addresses": [
+      {
+        "Type": "Office",
+        "Line1": "ENTERPRISE 2",
+        "Line2": "",
+        "City": "CHICAGO",
+        "State": "IL",
+        "ZipCode": "60606"
+      }
+    ],
+    "Phones": [
+      {
+        "Type": "Work",
+        "Number": "3331112233",
+        "Extension": ""
+      }
+    ],
+    "Faxes": [
+      {
+        "Type": "Work",
+        "Number": "3331112233",
+        "Extension": null
+      }
+    ],
+    "ContactFirstName": "",
+    "ContactLastName": "",
+    "ContactPhone": null,
+    "ContactFax": null,
+    "FirstName": "LEONARD",
+    "LastName": "MCCOY",
+    "MiddleInitial": null,
+    "DateOfBirth": "",
+    "Gender": null,
+    "EmailAddress": null,
+    "Prefix": null,
+    "Suffix": null
+  },
+  "RxInformation": [
+    {
+      "RxType": "NewRx",
+      "Ndc": "58160088452",
+      "ProductName": "FLUARIX TRIVALENT",
+      "QuantityWritten": "1",
+      "DaysSupply": 30,
+      "RefillsWritten": "2",
+      "RxWrittenDate": "05/23/2023",
+      "NeedDate": "08/23/2023",
+      "QuantityDispensed": "",
+      "Directions": "INJ 0.5ML IM X1 DOSE",
+      "PromiseTime": "08/20/2021 09:45 AM -0700",
+      "AdditionalInformation": [
+        {
+          "Key": "test1",
+          "Value": "value1"
+        },
+        {
+          "Key": "test2",
+          "Value": "value2"
+        }
+      ],
+      "VaccinationData": {
+        "Administration": {
+          "PreviouslyAdministered": true,
+          "VaccinationRefusal": false,
+          "ConsentToReport": true,
+          "MissedAppointment": false,
+          "AdministrationDate": " 08/14/2026 ",
+          "AdministeringSite": " LD ",
+          "RouteOfAdministration": " C28161 "
+        },
+        "VaccineProduct": {
+          "DoseNumber": " 1 ",
+          "VaccinationSeriesComplete": " YES ",
+          "LotNumber": " FLU24A01 ",
+          "ExpirationDate": " 08/14/2027 "
+        },
+        "PublicHealthReporting": {
+          "VTrckSProviderPin": " OH123456 ",
+          "ComorbidityStatus": " NO ",
+          "SerologyResults": " UNK ",
+          "FundingSource": " VXC1 ",
+          "VfcStatus": " V03 ",
+          "TargetPopulation": " TPV65 "
+        },
+        "AdministeringProvider": {
+          "FirstName": " John ",
+          "LastName": " Smith ",
+          "Id": " 1234567890 ",
+          "Suffix": " RPh "
+        },
+        "AdministeringLocation": {
+          "LocationType": " 17 ",
+          "LocationId": " 1234567890 ",
+          "LocationName": " Main Street Pharmacy ",
+          "LocationAddress": {
+            "Line1": " 123 Main St ",
+            "Line2": " Suite 200 ",
+            "City": " Columbus ",
+            "State": " OH ",
+            "ZipCode": " 43085 ",
+            "County": " 39049 "
+          },
+          "LocationPhone": " 6145551212 "
+        }
+      }
+    }
+  ]
+}
